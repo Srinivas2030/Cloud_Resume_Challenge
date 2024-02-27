@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Fonts Pre Connect -->
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Title -->
+  <script src="https://kit.fontawesome.com/422405b307.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+      <div class="container">
+        <nav>
+            <img src="images\logo-no-background.img>" class="logo">
+            <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         </nav>
+          <div class="header-text">
+            <p>Backend/>Cloud Developer</p>
+            <h1>Hi,I'm  <span>K Srinivas</span><br> From India</h1>
+          </div>
+           
+       </div> 
+  </div>
+  <!------------  About Me --------->
+  <div id="about">
+    <div class="container">
+       <div class="row">
+          <div Class="about-col-1">
+              <img src="images/download.jpg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>Aspiring Software Engineer seeking a challenging
+              internship opportunity at Namma Yatri to leverage my
+              passion for software development, algorithms, and
+              systems software. I am eager to leverage my cloud
+              expertise alongside my software development skills to
+              streamline development processes and optimize
+              resource utilization. I am poised to thrive in a dynamic
+              environment under the guidance of industry experts</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+              </div>
+              <!-- EXperience -->
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                  <li><span>Backend/>Cloud Developer</span> <br> Developing Backend and cloud applications</li>
+                  <li><span>Python Developer</span> <br>Developing applications/websites using Python</li>
+                  <li><span>Data Structures and Algorithms</span> <br>Progamming and Problem Solving which includes skills of Data structures and Algorithms </li>
+                </ul>
+              </div>
+              <div class="tab-contents"  id="Experience">
+                <ul>
+
+                  <li><span>Backend/Cloud Developer</span> at 98Appnenius private limited <br>Developing Backend for applicatios/websites by using Django Framework </li>
+                  <li><span>Member at IEEE at Chandigarh Univeristy </span> <br>Deploying and Managing your  applicatios/websites on Cloud Providers (AWS,GCP) </li>
+                </ul>
+              </li>
+              </div>
+              <!----  Education -->
+              <div class="tab-contents" id="Education">
+                <ul>
+                  <li><span>Chandigarh Univeristy</span> <br> Computer Science and Engineering  2021-2025</li>
+                  <li><span>Narayana Junior College Hyderbad</span> <br>Mathematics ,Physics, Chemistry </li>
+                  <li><span>Jawahar Navodaya Vidhyalaya</span> <br>Deploying and Managing your  applicatios/websites on Cloud Providers (AWS,GCP) </li>
+                </ul>
+              </div>
+
+          </div>
+      </div>
+      
+    </div>
+      
+  </div>
+
+  <div  id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>  <br>
+      <div class="services-list">
+         
+          
+        
+          <div>
+              <i class="fa-solid fa-code"></i>
+             
+               <h2>Backend Development</h2>
+               <p>I will build backend by using python frameworks,such as Djano,fastapi</p>
+               <a href="#">learn more</a>
+          </div> 
+
+          <div>
+            
+               <i class="fa-brands fa-aws"></i>  
+               <h2>Cloud Solutions and Services</h2>
+               <p>Develop and Deploy Applications/Websites on through Cloudproviders Implementing Costeffective ,Scalable,Secure and Fault tolerance Websites/Applications by using Cloud providers</p>
+               <a href="#">learn more</a>
+          </div>
+ 
+          <div>
+               <i class="fa-brands fa-docker"></i>
+               <h2>Microservices</h2>
+               <p> Build, share, and run container applications builds a single application by breaking it into a collection of independent, loosely coupled services </p>
+               <a href="#">learn more</a>
+          </div>
+           
+      </div>
+    
+    </div>
+    
+  </div>
+
+  
+
+
+<!-----Portfolio-->
+<div id="portfolio">
+   <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+          <div class="work">
+             <img src="images/cropprediction.png">
+             <div class="layer">
+              <h3>Crop Prediction According to Weather</h3>
+              <p>This project uses machine learning to help farmers choose the best crop
+                The project asks for details about the Nitrogen
+                Potassium
+                Phosphorous
+                Temperature
+                pH
+                Humidity
+                Rainfall</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+          </div>
+
+
+          <div class="work">
+            <img src="images/serverless.png">
+            <div class="layer">
+              <h3>Serverless Web Application</h3>
+              <p>This project uses machine learning to help farmers choose the best crop
+               </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+         </div>
+
+
+      <div class="work">
+          
+          <img src="images/cropprediction.png">
+          <div class="layer">
+            <h3>Serverless Web Application</h3>
+            <p>This project uses machine learning to help farmers choose the best crop
+            
+             </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+       </div>
+
+
+      </div>
+    </div>
+      <a href="#" class="btn">See more</a>
+   </div>
+
+</div>
+
+
+<!--------------   Contact  -------------->
+
+  <div id="contact">
+      <div  class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>kollasrinivas2402@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>6301546527</p>
+            <div class="social-icons">
+              <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new"><i class="fa-regular fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/k-srinivas-578501231/>"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Srinivas2030"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+            <a href="images/Resume for AWS.pdf" download  class="btn btn2">Download CV</a>
+          </div>
+           <div class="contact-right">
+              <form name="submit-to-google-sheet"> 
+                <input type="text"  name="Name" placeholder="Your name" required>
+                <input type="email"  name="Email" placeholder="Your Email Address" required>
+                <textarea name="Message"rows="6" cols="" placeholder="Your Message"  required></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"> </span>
+           </div>
+        </div>
+        
+      </div>
+      <div class="counter-number">Views</div> 
+       <div class="copyright">
+        <p>Copyright © K Srinivas. <i class="fa-solid fa-heart"></i> Computing is the Future</p>
+       </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+             sidemenu.style.right= "0";
+        }
+        function closemenu(){
+          sidemenu.style.right= "-200px";
+     }
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxZ3_Z1GngMGnv3chR_TmCMKxHq9GX1MvXHpLVr-Yozh5foMply-cqJMlAg-nqmBcm7TQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML="Message sent sucessfully"
+          setTimeout(function(){
+            msg.innerHTML= ""
+          },8)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
