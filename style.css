@@ -460,7 +460,7 @@ nav .fa-solid{
     #header{
         background-image: url(images/fh.png);
         height: 500px;
-        width: 350px;
+        width: 380px;
     }
     .header-text{
         margin-top: 70%;
@@ -511,7 +511,7 @@ nav .fa-solid{
 
     }
     .about-col-1{
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
     .about-col-1 img{
         height: 350px;
