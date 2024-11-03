@@ -399,7 +399,10 @@ nav ul li a:hover::after{
 .btn.btn2:hover{
  background-color: #ff004f;
 }
-
+#msg {
+    color: green;
+    font-weight: bold;
+  }
 
 .contact-right form{
       width: 100%;
